@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  /* body{
+    background-color: #080808;
+  }
+   */
+  .material-icons-outlined {
+    vertical-align: middle;
+    line-height: 1px;
+  }
+  
+  .navbar-brand > .material-icons-outlined {
+    font-size: 40px;
+  }
+  
+  .about > .material-icons-outlined {
+    font-size: 50px;
+  }
+  
+  .card > img {
+    height: 250px;
+  }
+  
+  .testimonial > img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  #map {
+    height: 300px;
+  }
+  #about , #project , #contact{
+    background-color: black;
+    color: white;
+  }
+  #about{
+    color: white;
+  }
+  #contact .lead mb-0{
+   font-weight: 700;
+  }
+
+  #about p{
+    color: white;
+  }
+  .text-uppercase {
+    text-transform: uppercase!important;
+    font-weight: 700;
+}
+.shadow {
+  box-shadow: 0 .5rem 1rem rgb(0, 0, 0)!important;
+}
+.navbar-nav{
+  font-weight: 600;
+}
+ li:hover{
+  font-size: 15.5px;
+}
+
+.py-4 {
+  padding-top: 1.5rem!important;
+  padding-bottom: 1.5rem!important;
+  background-color: #0d6efd;
+  color: white;
+  font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(82, 73, 73);
+  font-size: 17px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: black;
+  font-size: 17.5px;
+  
+}
+.navbar{
+  height: 60px;
+}
+
+.py-4:hover{
+  color: black;
+  /* font-weight: 800; */
+}
+.rounded-pill:hover{
+  color: black;
+  /* font-weight: 800; */
+}
+.bg-primary:hover {
+  background-color: #fff!important;
+  border: 1px solid #0d6efd;
+}
